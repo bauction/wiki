@@ -1,0 +1,25 @@
+site_name: Bauction
+theme:
+  name: material
+  features: navigation.indexes
+nav:
+  - Getting started:
+      - Welcome to bauction: index.md
+      - Overview: sections/overview.md
+      - Basic usage: sections/basic-usage.md
+  - Available methods:
+      - bidOnAuction: methods/bidOnAuction.md
+      - createAuction: methods/createAuction.md
+      - createProfile: methods/createProfile.md
+      - deleteAuction: methods/deleteAuction.md
+      - deleteMyProfile: methods/deleteMyProfile.md
+      - findAuctionById: methods/findAuctionById.md
+      - getAllAuctions: methods/getAllAuctions.md
+      - getAuctionWinner: methods/getAuctionWinner.md
+      - getHighestBid: methods/getHighestBid.md
+      - getMyAuctions: methods/getMyAuctions.md
+      - getMyAuctionCount: methods/getMyAuctionCount.md
+      - getMyProfile: methods/getMyProfile.md
+      - getProfileById: methods/getProfileById.md
+      - updateMyProfile: methods/updateMyProfile.md
+      - updateAuction: methods/updateAuction.md
