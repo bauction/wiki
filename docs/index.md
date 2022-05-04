@@ -7,19 +7,19 @@ Bauction uses [Internet Computer Protocol](https://dfinity.org/) as platform to 
 ## **Installation:**
 
 ```
-yarn add bauction-js
+yarn add @bauction/sdk-js
 ```
 
 or
 
 ```
-npm install bauction-js
+npm install @bauction/sdk-js
 ```
 
 ## **Basic Usage**
 
 ```js
-import Bauction from "bauction-js";
+import Bauction from "@bauction/sdk-js";
 const bauctionInstance = new Bauction();
 //use async function for this:
 await bauctionInstance.initIdentity("path-to-secret-key");
@@ -30,7 +30,7 @@ bauctionInstance.getAllAuctions(); //to fetch all auctions from bauction caniste
 ## **Example**
 
 ```js
-import Bauction from "bauction-js";
+import Bauction from "@bauction/sdk-js";
 const bauctionIns = new Bauction();
 
 const initializeBauction = async () => {
